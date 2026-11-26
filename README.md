@@ -15,6 +15,12 @@
 
 ---
 
+<img width="1440" height="820" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/788c95ba-c64d-4431-be2f-98a8bbcf037f" />
+
+
+
+
+
 ## 🌐 Live Application
 
 **[Open the E-Commerce Sales & Customer Intelligence Dashboard](https://e-commerce-sales-customer-intelligence.onrender.com)**
@@ -84,7 +90,7 @@ E-Commerce-Sales-Customer-Intelligence/
 ├── .dockerignore
 ├── .gitignore
 │
-├── Data/
+├── data/
 │   ├── Raw/
 │   │   └── Online Retail.xlsx
 │   └── processed/
@@ -229,13 +235,6 @@ The project includes analytical workflows for:
 
 These outputs are intended to support exploration and business decision-making. Forecasts and churn scores are analytical estimates, not guarantees of future behaviour.
 
-## 🖼️ Screenshots
-
-Dashboard screenshots can be added here as the project evolves. To display an image stored in the repository, add it under `outputs/charts/` or a dedicated `screenshots/` folder and embed it like this:
-
-```markdown
-![Dashboard Overview](screenshots/dashboard-overview.png)
-```
 
 ## ⚠️ Data Path Note
 
