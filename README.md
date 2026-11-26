@@ -236,16 +236,6 @@ The project includes analytical workflows for:
 These outputs are intended to support exploration and business decision-making. Forecasts and churn scores are analytical estimates, not guarantees of future behaviour.
 
 
-## ⚠️ Data Path Note
-
-The repository stores the processed dataset under `Data/processed/` (capital **D**). Linux-based hosts such as Render use case-sensitive paths. Ensure the `DATA_PATH` setting in `app.py` uses the exact repository path:
-
-```python
-DATA_PATH = ROOT / "Data" / "processed" / "cleaned_sales.csv"
-```
-
-This is important because a lowercase `data` path may work on some Windows setups but fail on Linux.
-
 ## 🚀 Deployment
 
 The project includes a `Dockerfile` and is deployed on Render.
@@ -254,22 +244,7 @@ The project includes a `Dockerfile` and is deployed on Render.
 - **Container port:** 8501 (the Docker command also supports Render's `PORT` environment variable).
 - **Source repository:** https://github.com/Ruchika-Natiye/E-Commerce-Sales-Customer-Intelligence
 
-## 🔮 Possible Future Improvements
 
-- Add more dashboard screenshots and a project walkthrough.
-- Improve caching and memory efficiency for low-memory hosting environments.
-- Add automated data validation and model evaluation reports.
-- Add tests for data processing and analytical modules.
-- Add scheduled data refresh and model monitoring.
-
-## 👩‍💻 Author
-
-**Ruchika Natiye**
-
-- GitHub: [@Ruchika-Natiye](https://github.com/Ruchika-Natiye)
-- Project: [E-Commerce Sales & Customer Intelligence](https://github.com/Ruchika-Natiye/E-Commerce-Sales-Customer-Intelligence)
-
----
 
 <p align="center">
   If you find this project useful, consider giving the repository a ⭐.
