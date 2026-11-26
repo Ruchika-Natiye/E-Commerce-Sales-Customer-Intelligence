@@ -90,7 +90,7 @@ E-Commerce-Sales-Customer-Intelligence/
 ├── .dockerignore
 ├── .gitignore
 │
-├── data/
+├── Data/
 │   ├── Raw/
 │   │   └── Online Retail.xlsx
 │   └── processed/
